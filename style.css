@@ -1,0 +1,15 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box; 
+}
+div{
+    width:500px;
+    height:500px;
+    background-color: blue;
+}
+@media screen and (orientation:portrait){
+    div{
+        background-color: red;
+    }
+}
